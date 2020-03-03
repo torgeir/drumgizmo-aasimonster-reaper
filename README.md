@@ -4,4 +4,4 @@ A Reaper template for the drumgizmo [aasimonster kit](https://www.drumgizmo.org/
 
 <img src="screenshot.png" width="70%">
 
-Created using the Crockell drumkit reaper template and eq effects as a basis. I'm by no means a drum expert, so feel free to chime in with suggestions for further improvements to both the template and the midi names.
+Created using the [Crockell drumkit reaper template](https://drumgizmo.org/kits/CrocellKit/CrocellKit-Reaper_template.rpp) and eq effects as a basis. I'm by no means a drum expert, so feel free to chime in with suggestions for further improvements to both the template and the midi names.
