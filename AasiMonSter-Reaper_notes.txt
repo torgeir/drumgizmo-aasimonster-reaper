@@ -1,0 +1,25 @@
+# MIDI note/CC name map
+59 Ride_R
+58 Crash_R_Stop
+57 Crash_R
+56 Splash_R
+55 Ride_R_Bell
+54 Splash_L
+53 Ride_L_Bell
+52 China_L
+51 Ride_L
+50 Crash_L_Stop
+49 Crash_L
+48 Tom_1
+47 Tom_2
+46 Hihat_Open
+45 Tom 3
+44 Hihat_Pedal
+43 Tom 4
+42 Hihat_Closed
+41 Hihat_Stop
+40 Snare_RimShot
+38 Snare
+37 Snare_Rim
+36 Kick_L
+35 Kick_R
