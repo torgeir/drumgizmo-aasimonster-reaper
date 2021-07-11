@@ -1,0 +1,9 @@
+- Place the dll and the pdk in the scripts folder
+- `ruby extract grooves mt drum kit.rb`
+- get python3
+- `cd scripts`
+- `git clone https://github.com/louisabraham/python3-midi`
+- `cd python3-midi`
+- `sudo python3 setup.py install`
+- `cd ..`
+- `./conversion.sh`

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # import library for working with midi files
 import midi
@@ -25,7 +25,6 @@ if len(sys.argv) > 4:
 else:
     pattern_name = filename.split(".mid")[0]
     
-
 
 
 # load file
