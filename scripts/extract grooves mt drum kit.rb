@@ -3,10 +3,7 @@ require 'rexml/document'
 require 'fileutils'
 
 
-# ruby extract.rb ./MT-PowerDrumKit.dll ./midi
-
-dll = ARGV[0]
-dest = ARGV[1]
+# ruby extract grooves mt drum kit.rb
 
 data= IO.read('MT-PowerDrumKit.dll', :encoding=>'ascii-8bit')
 
@@ -23,7 +20,7 @@ root.elements.each("SuperStyle") do |ss|
     s.elements.each("Groove") do |g|
       n_g = g.attributes["Name"].gsub("/","_")
 
-      path = File.join([dest] + [ss, s, g].map{|e| e.attributes["Name"].gsub("/","_")})
+      path = File.join(["midi"] + [ss, s, g].map{|e| e.attributes["Name"].gsub("/","_")})
       FileUtils.mkdir_p(path)
       offset = g.attributes["Offset"].to_i
       size = g.attributes["Size"].to_i
